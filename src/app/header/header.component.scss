@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: #eb5d6d;
+}
+.cont-logotitre {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+span {
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-size: 28px;
+}

@@ -1,0 +1,15 @@
+.container-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-card {
+    width: 280px;
+    height: 480px;
+    border: 1px solid rgb(118, 118, 118);
+    margin: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.57);
+}
+.displayCard {
+    display: none;
+}

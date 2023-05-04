@@ -1,0 +1,9 @@
+<div class="container-image">
+   <img src={{myCard.image}} alt="Image">
+</div>
+<div class="container-elementcard">
+     <h1>{{myCard.title}}</h1>
+     <p class="age">Age : {{myCard.age}}</p>
+     <p class="quote">{{myCard.quote}}</p>
+     <input type="text" [(ngModel)]="inputValue" (input)="updateCard(inputValue)">
+</div>
